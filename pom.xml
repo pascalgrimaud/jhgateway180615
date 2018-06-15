@@ -31,6 +31,16 @@
         </pluginRepository>
     </pluginRepositories>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>jhipster-snapshots</id>
+            <url>http://artifactory:8081/artifactory/libs-snapshot</url>
+        </snapshotRepository>
+        <repository>
+            <id>'jhipster-releases</id>
+            <url>http://artifactory:8081/artifactory/libs-release</url>
+        </repository>
+    </distributionManagement>
     <!-- jhipster-needle-distribution-management -->
     
     <properties>
